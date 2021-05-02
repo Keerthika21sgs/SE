@@ -9,12 +9,12 @@ try:
     txt = r.recognize_google(audio)
     print("You said:",txt)
 except sr.UnknownValueError:
-    print("Could not understand audio")
+    print("Unable to understand audio")
 except sr.RequestError as e:
     print("Could not request results; {0}".format(e))
 
 
-
+https://github.com/Keerthika21sgs/SE.git
 
 https://pypi.org/project/PyAudio/#description
 https://anaconda.org/conda-forge/speechrecognition
